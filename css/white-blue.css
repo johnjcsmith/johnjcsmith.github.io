@@ -1,14 +1,27 @@
 /* Theme */
 
 main {
-	background: #FAFAFA;
-	color: #0277BD;
+	background: #ffffff;
+	color: #0BC9E2;
 }
 
 .icons-social a {
-	color: #0277BD;
+	color: #0BC9E2;
 }
 
 .icons-social a svg path{
-	fill: #0277BD;
+	fill: #0BC9E2;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #0BC9E2;
+}
+
+.projects a:hover {
+	text-decoration: underline;
+}
+.projects {
+	margin-bottom: 2%;
 }
